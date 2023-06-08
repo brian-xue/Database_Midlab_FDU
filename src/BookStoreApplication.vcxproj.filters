@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\backward">
+      <UniqueIdentifier>{6e28a6ba-4845-4738-affb-d670b56a1d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\frontward">
+      <UniqueIdentifier>{a356945d-8669-4b7b-b292-ded32e8e0644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\backwardH">
+      <UniqueIdentifier>{56acefb8-ee6d-4211-bf6f-0f79b7efd6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\frontward">
+      <UniqueIdentifier>{596a1943-df2e-4d89-9373-c00c3a04bb6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="BillQuery.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookQuery.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookStoreApplication.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookStoreApplicationDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookStoreBuy.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookStoreQuery.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookStoreSell.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookStoreSignup.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonQuery.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="SelBook.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="Sel_Bill.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="AddBookDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BookModifyDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="PayDLG.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="Sel_person.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="PsnModifyDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="buyBook.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="sel_BookPurchase.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="BookPurchaseListDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyExistedBookDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyNewBookDlg.h">
+      <Filter>头文件\frontward</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSignUp.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+    <ClInclude Include="testLegal.h">
+      <Filter>头文件\backwardH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="BillQuery.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookQuery.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookStoreApplication.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookStoreApplicationDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookStoreBuy.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookStoreQuery.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookStoreSell.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookStoreSignup.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonQuery.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="SelBook.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="Sel_Bill.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="AddBookDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookModifyDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="PayDLG.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="PsnModifyDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BookPurchaseListDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="buyBook.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyExistedBookDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyNewBookDlg.cpp">
+      <Filter>源文件\frontward</Filter>
+    </ClCompile>
+    <ClCompile Include="sel_BookPurchase.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="Sel_person.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSignUp.cpp">
+      <Filter>源文件\backward</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BookStoreApplication.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BookStoreApplication.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BookStoreApplication.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
